@@ -53,3 +53,19 @@ function constainsDuplicate(elements) {
 }
 ```
 In this code snippet there are two loops. It will differ as the loop increases, such as for the three loops it will be O(n^3). But as we said earlier Big O notation is a fuzzy word so whatever the loops are, the actual complexity will be O(n^2).
+
+### 4. O(log n) Logarithmic Runtime Complexity
+The runtime of O(log n) (log base 2) for the algorithm to run will plateau no matter what the size of the input data set. O(log n )  basically means time goes up linearly while `n` goes up exponentially. So if it takes `1` second to compute `10` elements, it will take `2` seconds to compute `100` elements and `3` seconds to compute `1000` elements and so on. Here is an example 
+```
+for(let i = 1; i <= n; i = i * 3)
+    console.log('Hello')
+```
+Above code demonstrates an algorithm that runs log_2(n). The post operation of the for loop multiplies the current value of `i` by 3. So, `i` goes from 1 to 3 to 9 to 27.
+
+### 5. O(n log n) Linearithmic Runtime Complexity
+
+
+> Reference
+- [Dev.to Blog](https://https://dev.to/sarah_chima/the-big-o-notation-an-introduction-34f7)
+
+- [stackoverflow](https://https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly)
