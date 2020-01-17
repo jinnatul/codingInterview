@@ -19,7 +19,7 @@ Big O notation is used to classify algorithms according to how their running tim
 - O(2^n) Exponential Run Time 
 - O(n!) Factorial Run Time
 
-### O(1) Constant Runtime Complexity
+### 1. O(1) Constant Runtime Complexity
 Constant runtime complexity means the algorithm run the same time or takes the same time no matter what the input data set is. The runtime is always constant whatever the size of the give input.
 ```
 function returnFirstElement( elements ){
@@ -27,7 +27,7 @@ function returnFirstElement( elements ){
  }
  ```
 
- ### O(n) Linear Runtime Complexity
+ ### 2. O(n) Linear Runtime Complexity
  Linear runtime complexity occurs when the runtime grows in proportion to the given input elements. `n` is the size of input element and `O` represents the complexity based on the number of `n`. A good example of this is searching for a particular value in a dataset using an iteration like in the example below.
  ```
  function constainsValue(elements, value) {
@@ -38,3 +38,18 @@ function returnFirstElement( elements ){
 }
 ```
 We see that the time taken to loop through all elements in the array grows with an increasing in the size of the array. But what if the element is found before the whole array is traversed? Does the runtime complexity change? Well, that's a no. Because Big O notation consideres the worst case scenario. In this instance, its the case where the loop run through al the elements of the array. 
+
+### 3. O(n^2) Quadratic Runtime Complexity
+
+O(n^2) refers an algorithm whose runtime is proportional to the square of the size of the input elements or data set. Nested loop is one of the example of this type of complexity. 
+```
+function constainsDuplicate(elements) {
+  for (let element in elements) {
+     for (let item in elements){
+       if (element === item) return true;
+     }
+  }
+  return false
+}
+```
+In this code snippet there are two loops. It will differ as the loop increases, such as for the three loops it will be O(n^3). But as we said earlier Big O notation is a fuzzy word so whatever the loops are, the actual complexity will be O(n^2).
