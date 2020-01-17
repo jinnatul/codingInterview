@@ -52,7 +52,7 @@ function constainsDuplicate(elements) {
   return false
 }
 ```
-In this code snippet there are two loops. It will differ as the loop increases, such as for the three loops it will be O(n^3). But as we said earlier Big O notation is a fuzzy word so whatever the loops are, the actual complexity will be O(n^2).
+In this code snippet there are two loops. It will differ as the loop increases, such as for the three loops it will be O(n^3). But as we said earlier Big O notation is a fuzzy word so whatever the loops are, the actual complexity will be O(n^2). **Bubble sort, Selection sort, Insertion sort** are the example of quadratic runtime complexity. 
 
 ### 4. O(log n) Logarithmic Runtime Complexity
 The runtime of O(log n) (log base 2) for the algorithm to run will plateau no matter what the size of the input data set. O(log n )  basically means time goes up linearly while `n` goes up exponentially. So if it takes `1` second to compute `10` elements, it will take `2` seconds to compute `100` elements and `3` seconds to compute `1000` elements and so on. Here is an example 
@@ -63,10 +63,22 @@ for(let i = 1; i <= n; i = i * 3)
 Above code demonstrates an algorithm that runs log_2(n). The post operation of the for loop multiplies the current value of `i` by 3. So, `i` goes from 1 to 3 to 9 to 27.
 
 ### 5. O(n log n) Linearithmic Runtime Complexity
-Linearithmic runtime complexity is the combination of linear and logarithmic runtime complexity. This is efficient than linear runtime but still, it is considered to be fairly good and is majorly found in the divide and conquer algorithms. A very simple explanation for this is that the algorithm performs 'N' number of operations and each operation runs in `O(log n)` (logarithmic) time. **Merge sort** algorithm runs in `O(n log n)` time.
+Linearithmic runtime complexity is the combination of linear and logarithmic runtime complexity. This is efficient than linear runtime but still, it is considered to be fairly good and is majorly found in the divide and conquer algorithms. A very simple explanation for this is that the algorithm performs 'N' number of operations and each operation runs in `O(log n)` (logarithmic) time. **Merge sort, Heap sort, Quick sort (for worst case scenario)** algorithm runs in `O(n log n)` time.
 
 
 ### 6. O(2^n) Exponential Runtime Complexity
+Exponential runtime complexity occurs when for each increase in the size of data set the runtime is doubled. For a small dataset it's might not effect much but as the size of the given data increase, the time taken to execute this algorithm increases rapidly. A common example of this is a recursive function. 
+```
+function fibonacci(num) {
+    if (num <= 1) return 1;
+
+    return fibonacci(num - 2) + fibonacci(num - 1)
+}
+```
+
+### 7. O(n!) Factorial Runtime Complexity
+In this case, the algorithm runs in factorial time. The factorial of a non-negative integer is the product of all possible integers less than or equal to n. This is a pretty terrible runtime. Any algorithm that performs permutation on a given data set is an example of O(n!)
+
 
 
 > Reference
@@ -75,5 +87,7 @@ Linearithmic runtime complexity is the combination of linear and logarithmic run
 - [stackoverflow](https://https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly)
 
 - [Youtube video for linearithmic complexity](https://https://www.youtube.com/watch?v=i7CmolBf3HM)
+
+- [Medium Blog](https://medium.com/learn-with-the-lean-programmer/some-common-runtime-complexities-and-their-meanings-5a2bf4320f48)
 
 
