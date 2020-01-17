@@ -2,7 +2,8 @@
 
 **Table of Contents:**
 
-
+ * [Array and String](/Array%20and%20Strings/ArrayString.md)
+ 
  * [Big-O](/BigO/BigO.md)
  
  * [Bit Manipulations](/Bit%20Manipulations/BitManipulations.md)
