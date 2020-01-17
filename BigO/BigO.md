@@ -90,4 +90,8 @@ In this case, the algorithm runs in factorial time. The factorial of a non-negat
 
 - [Medium Blog](https://medium.com/learn-with-the-lean-programmer/some-common-runtime-complexities-and-their-meanings-5a2bf4320f48)
 
+- [Runtime complexity for algorithms](https://https://johnderinger.wordpress.com/2012/12/28/quadratic-and-linearithmic-comparison-based-sorting-algorithms/)
+
+- [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
+
 
