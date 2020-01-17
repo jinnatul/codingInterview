@@ -63,9 +63,17 @@ for(let i = 1; i <= n; i = i * 3)
 Above code demonstrates an algorithm that runs log_2(n). The post operation of the for loop multiplies the current value of `i` by 3. So, `i` goes from 1 to 3 to 9 to 27.
 
 ### 5. O(n log n) Linearithmic Runtime Complexity
+Linearithmic runtime complexity is the combination of linear and logarithmic runtime complexity. This is efficient than linear runtime but still, it is considered to be fairly good and is majorly found in the divide and conquer algorithms. A very simple explanation for this is that the algorithm performs 'N' number of operations and each operation runs in `O(log n)` (logarithmic) time. **Merge sort** algorithm runs in `O(n log n)` time.
+
+
+### 6. O(2^n) Exponential Runtime Complexity
 
 
 > Reference
 - [Dev.to Blog](https://https://dev.to/sarah_chima/the-big-o-notation-an-introduction-34f7)
 
 - [stackoverflow](https://https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly)
+
+- [Youtube video for linearithmic complexity](https://https://www.youtube.com/watch?v=i7CmolBf3HM)
+
+
