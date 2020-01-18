@@ -1,0 +1,16 @@
+**Table of Contents:**
+ 
+  * [Triple Step]()
+  * [Robot in a Grid]()
+  * [Magic Index]()
+  * [Power Set]()
+  * [Recursive Multiply]()
+  * [Tower of Hanoi]()
+  * [Permutations without Dups]()
+  * [Permutations with Dups]()
+  * [Parens]()
+  * [Paint Fill]()
+  * [Coins]()
+  * [Eight Queens]()
+  * [Stack of Boxes]()
+  * [Bollean Bvaluation]()
