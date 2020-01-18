@@ -1,6 +1,6 @@
 ## Question: Given two strings, write a method to decide if one is a permutation of the others
 
-[Solution](https://link)
+[Solution](https://https://github.com/zubayerhimel/coding-Interview/blob/array_and_string/Array%20and%20Strings/Array/CheckPermutation/checkPermutation.js)
 
 In the above solution we use JavaScript default function to get our expected output. In the solution we make a function named `checkPermutation` which takes two parameters `firstString` and `secondString`. First of all we check if the both string have same length of characters or not. If both string have same string length then we will proceed to our next step, if not then we will return false. <br>
 If both string have same length then we will split the string using split function with empty string `split('')`. Lets say, our first string is `javascript`. After splitting the string we get our string like this -
