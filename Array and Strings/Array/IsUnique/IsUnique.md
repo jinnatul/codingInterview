@@ -1,7 +1,8 @@
 ## Question: Implement an algorithm to determine if a string has all unique characters. 
 [Code solution in JavaScript](https://github.com/zubayerhimel/coding-Interview/blob/array_and_string/Array%20and%20Strings/Array/IsUnique/IsUnique.js)
 
-We can solve this problem using JavaScript. We make a function called `isUnique` which has one parameter named `inputString` to take the string. In the function we make an empty object named `obj`. Now we will traverse through the entire given string (`inputString`)using `for` loop. <br/> For each iteration we store each character in the `ch` variable (`let ch = inputString[i]`) and check if the `obj` object has the character in it. If it exists then return false. If it is not then set the character to `obj` to true. It means if the object `obj` has similar character then return false and if the object `obj` doesn't have the similar character then return true. After the for loop we returns true. 
+We can solve this problem using JavaScript. We make a function called `isUnique` which has one parameter named `inputString` to take the string. In the function we make an empty object named `obj`. Now we will traverse through the entire given string (`inputString`)using `for` loop. <br/> 
+For each iteration we store each character in the `ch` variable (`let ch = inputString[i]`) and check if the `obj` object has the character in it. If it exists then return false. If it is not then set the character to `obj` to true. It means if the object `obj` has similar character then return false and if the object `obj` doesn't have the similar character then return true. After the for loop we return true. 
 
 #### Runtime complexity
 This algorithm has **O(n) Linear Runtime Complexity** as it has one loop to traverse through the string. `n` is the given string. <br/> For worst case scenario, the loop will go through the whole length of the string. So the ultimate runtime complexity is O(n).
