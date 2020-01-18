@@ -1,3 +1,4 @@
+# Books Questions (Problems)
 **Table of Contents:**
 
   * [Remove Dups](/Linked%20Lists/Remove%20Dups/RemoveDups.md)
@@ -8,3 +9,7 @@
   * [Palindrome](/Linked%20Lists/Palindrome/Palindrome.md)
   * [InterSection](/Linked%20Lists/InterSection/InterSection.md)
   * [Loop Detection](/Linked%20Lists/LoopDetection/LoopDetection.md)
+
+
+# Custom Questions
+**Table of Contents:**
