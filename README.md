@@ -21,3 +21,7 @@
  * [Stacks and Queue](/Stacks%20and%20Queue/StackandQueue.md)
  
  * [Trees](/Trees/Trees.md)
+ 
+ * [Moderate](/Moderate/Moderate.md)
+ 
+ * [Hard](/Hard/Hard.md)
