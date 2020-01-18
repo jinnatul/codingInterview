@@ -27,3 +27,6 @@ Then we will join our sorted string using `join('')` function and outcome will l
 We will do this for both of the string and check if the both string is equal or not. If equal then return true, if not then return false.
 
 
+#### Runtime Complexity
+
+Runtime complexity of the code is **O(n log n) Linearithmic complexity**
