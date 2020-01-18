@@ -1,6 +1,6 @@
-const isUnique = inputString =>
+const isUnique = givenString =>
 {
-    return new Set(inputString).size == inputString.length
+    return new Set(givenString).size == givenString.length
 }
 
 console.log(isUnique('abc')) // true
