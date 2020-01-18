@@ -15,5 +15,5 @@ const isUnique = inputString => {
     return true
 }
 
-console.log(isUnique('abcde'))
-console.log(isUnique('aaaa'))
+console.log(isUnique('abcde')) // true
+console.log(isUnique('aaaa')) // false
