@@ -28,7 +28,7 @@ const oneAway = (firstString, secondString) => {
 }
 
 
-console.log(oneAway('pale', 'ple')) 
-console.log(oneAway('pale', 'bake')) 
-console.log(oneAway('pales', 'pale'))
-console.log(oneAway('pale', 'bale'))
+console.log(oneAway('pale', 'ple')) // true
+console.log(oneAway('pale', 'bake')) // false
+console.log(oneAway('pales', 'pale')) // true
+console.log(oneAway('pale', 'bale')) // true
