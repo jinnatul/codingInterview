@@ -9,7 +9,7 @@ const oneAway = (firstString, secondString) => {
         if(firstString[i] !== secondString[j])
         {
             if(isEdited)
-            {
+            {   // second edit
                 return false
             }
 
@@ -28,7 +28,7 @@ const oneAway = (firstString, secondString) => {
 }
 
 
-console.log(oneAway('pale', 'ple'))
-console.log(oneAway('pale', 'bake'))
+console.log(oneAway('pale', 'ple')) 
+console.log(oneAway('pale', 'bake')) 
 console.log(oneAway('pales', 'pale'))
 console.log(oneAway('pale', 'bale'))
