@@ -9,7 +9,7 @@ pale, bale -> true
 pale, bake -> false
 ```
 
-[Solution in JavaScript](https://https://github.com/zubayerhimel/coding-Interview/blob/array_and_string/Array%20and%20Strings/Array/OneAway/oneAway.js)
+[Solution in JavaScript](/Array%20and%20Strings/Array/OneAway/oneAway.js)
 
 
 To solve the problem we make a function called `oneAway` which takes two parameter `firstString` and `secondString`. <br>
