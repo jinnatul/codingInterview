@@ -1,5 +1,5 @@
 ## Question: Implement an algorithm to determine if a string has all unique characters. 
-[Solution in JavaScript](https://github.com/zubayerhimel/coding-Interview/blob/array_and_string/Array%20and%20Strings/Array/IsUnique/IsUnique.js)
+[Solution in JavaScript](/Array%20and%20Strings/Array/IsUnique/IsUnique.js)
 
 We can solve this problem using JavaScript. We make a function called `isUnique` which has one parameter named `givenString` to take the string. In the function we make an empty object named `obj`. Now we will traverse through the entire given string (`givenString`)using `for` loop. <br/> 
 For each iteration we store each character in the `ch` variable (`let ch = givenString[i]`) and check if the `obj` object has the character in it. If it exists then return false. If it is not then set the character to `obj` to true. It means if the object `obj` has similar character then return false and if the object `obj` doesn't have the similar character then return true. After the for loop we return true. 
