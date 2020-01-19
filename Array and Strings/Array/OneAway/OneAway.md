@@ -9,7 +9,7 @@ pale, bale -> true
 pale, bake -> false
 ```
 
-[Solution in JavaScript](https://link)
+[Solution in JavaScript](https://https://github.com/zubayerhimel/coding-Interview/blob/array_and_string/Array%20and%20Strings/Array/OneAway/oneAway.js)
 
 
 To solve the problem we make a function called `oneAway` which takes two parameter `firstString` and `secondString`. 
@@ -19,3 +19,8 @@ If the character is not same then we will check if the boolean variable `isEdite
 Then we will check if the length of the `firstString` and `secondString`. If `firstString` length is greater than `secondString` length then we will decrease `j` means deleting character from `firstString` On the other hand, if the length of the `firstString` is less than `secondString` then we will decrease `i` means deleting character from `secondString`. 
 Then we will set the isEdited variable to true as the string is edited.
 After the for loop return true.
+
+#### Runtime and Space Complexity
+
+Runtime complexity of the algorithm is O(n) Linear Complexity. 
+Additional space complexity is O(1)
