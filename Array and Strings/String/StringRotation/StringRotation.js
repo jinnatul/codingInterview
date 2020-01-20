@@ -9,4 +9,4 @@ const stringRotation = (firstString, secondString) =>
 }
 
 console.log(stringRotation('abcd', 'bdca')) // false
-console.log(stringRotation('abcd', 'bcda')) // true
+console.log(stringRotation('waterbottle', 'erbottlewat')) // true
