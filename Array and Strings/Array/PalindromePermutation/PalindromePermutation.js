@@ -1,20 +1,20 @@
 const isPalindromePermutation = givenString =>
 {
-    let chars = new Set()
+    let str = new Set()
     for(let char of givenString)
     {
         if(char !== ' ')
         {
-            if(chars.has(char))
+            if(str.has(char))
             {
-                chars.delete(char)
+                str.delete(char)
             }
             else{
-                chars.add(char)
+                str.add(char)
             }
         }
     }
-    return chars.size <= 1
+    return str.size <= 1
 }
 
 console.log(isPalindromePermutation('taco cat'))
