@@ -9,7 +9,8 @@ const isPalindromePermutation = givenString =>
             {
                 str.delete(char)
             }
-            else{
+            else
+            {
                 str.add(char)
             }
         }
