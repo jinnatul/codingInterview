@@ -1,6 +1,7 @@
 const rotateMatrix = matrix =>
 {
     let n = matrix.length
+    n = Math.floor(n)
 
     for(let i = 0; i < n/2; i++)
     {

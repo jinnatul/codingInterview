@@ -2,6 +2,7 @@
 
 [Solution in JavaScript](/Array%20and%20Strings/String/StringRotation/StringRotation.js)
 
+**Explanation**
 
 A string is said to be a rotation of another string if it has the same length, contains the same characters, and they were rotated around one of the character. For example, string `bcda` is a rotation of `abcd` but `bdca` is not a rotation of string `abcd`. <br> <br>
 

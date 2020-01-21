@@ -2,6 +2,7 @@
 
 [Solution in JavaScript](/Array%20and%20Strings/Array/PalindromePermutation/PalindromePermutation.js)
 
+**Explanation**
 
 To solve this problem we make a function which has one parameter which takes a string. In this solution we will use `**for...of**` loop of javascript. <br>
 **for...of** creates a loop iterating over iterable objects including: built-in `String`, `Array`, Array-like objects (e.g. `arguments` or `NodeList`), `TypedArray`, `Map`, `Set` and user defined iterables. It invokes a custom iteration hook with statemnets to be executed for the value of each distinct property of the object. <br>

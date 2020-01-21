@@ -8,6 +8,8 @@ Output: "Mr%203ohn%20Smith"
 
 [Solution in JavaScript](/Array%20and%20Strings/Array/URLify/URLify.js)
 
+**Explanation**
+
 For this problem we can use `replace()` function to replace all the spaces with `%20`. <br>
 In the solution, we make a function called URLify which takes a parameter named `givenString`. Now we will regex `/\s/g` to find out the empty spaces and replace them with `%20`. 
 

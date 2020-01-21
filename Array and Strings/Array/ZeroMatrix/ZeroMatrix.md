@@ -18,6 +18,8 @@ Output:
 
 [Solution in JavaScript](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix.js)
 
+**Explanation**
+
 For this problem we need to mark the `0` in the matrix where they occured. Then we need to change respected columns and rows wtih 0 where first `0` is occured. <br>
 First we take two boolean variable `colZero` and `rowZero` and set them to false. Then we take two integer variable which will store the row and column of the matrix. <br>
 Then we need to use a for loop to check in which column `0` is occured. If `0` is found then set `true` instead of `0` `colZero = true`. We do the same for the row. <br>
@@ -76,5 +78,5 @@ At last we return the matrix.
 
 
 ### Complexity
-**Runtime Complexity**: O(m*n)
+**Runtime Complexity**: O(m*n) <br>
 **Space Complexity**: O(1)

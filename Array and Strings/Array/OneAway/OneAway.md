@@ -11,6 +11,7 @@ pale, bake -> false
 
 [Solution in JavaScript](/Array%20and%20Strings/Array/OneAway/oneAway.js)
 
+**Explanation**
 
 To solve the problem we make a function called `oneAway` which takes two parameter `firstString` and `secondString`. <br>
 First of all we will check if both of the given string length. If lengths differ by more than 1 then can't be true, because we can only return true if the string can be one time edited. <br>
@@ -20,7 +21,7 @@ Then we will check if the length of the `firstString` and `secondString`. If `fi
 Then we will set the isEdited variable to true as the string is edited.
 After the for loop return true.
 
-#### Runtime and Space Complexity
+### Complexity
 
-Runtime complexity of the algorithm is O(n) Linear Complexity. 
-Additional space complexity is O(1)
+**Runtime Complexity**: O(n) <br>
+**Additional Space Complexity**: O(1)
