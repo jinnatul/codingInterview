@@ -13,4 +13,4 @@ const conversion = (firstNumber, secondNumber) =>{
     return countBits(firstNumber ^ secondNumber)
 } 
 
-console.log(conversion(29, 15))
+console.log(conversion(29, 15)) // 2
