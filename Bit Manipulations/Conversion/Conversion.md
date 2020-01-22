@@ -25,4 +25,5 @@ numBits 1 and char is 1
 numBits 2 and char is 0
 ```
 
-
+### Complexity
+**Runtime Complexity**: O(n)
