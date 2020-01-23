@@ -1,10 +1,12 @@
 ## Question: Given two strings, write a method to decide if one is a permutation of the others
 
-[Solution in JavaScript](/Array%20and%20Strings/Array/CheckPermutation/checkPermutation.js)
+- [Solution in C++](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation01.cpp)
+- [Solution in C++](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation02.cpp)
+- [Solution in JavaScript](/Array%20and%20Strings/Array/CheckPermutation/checkPermutation.js)
 
 **Explanation**
 
-In the above solution we use JavaScript default function to get our expected output. In the solution we make a function named `checkPermutation` which takes two parameters `firstString` and `secondString`. First of all we check if the both string have same length of characters or not. If both string have same string length then we will proceed to our next step, if not then we will return false. <br>
+In the above solution we use JavaScript default function to get our expected output and another solution we use c++ sort function. In the solution we make a function named `checkPermutation` which takes two parameters `firstString` and `secondString`. First of all we check if the both string have same length of characters or not. If both string have same string length then we will proceed to our next step, if not then we will return false. <br>
 If both string have same length then we will split the string using split function with empty string `split('')`. Lets say, our first string is `javascript`. After splitting the string we get our string like this -
 
 ```
@@ -28,6 +30,17 @@ Then we will join our sorted string using `join('')` function and outcome will l
 
 We will do this for both of the string and check if the both string is equal or not. If equal then return true, if not then return false.
 
+```
+bool checkPermutation(string str1, string str2)
+{
+    sort(str1.begin(), str1.end());
+    sort(str2.begin(), str2.end());
+
+    if(str1 == str2) return true;
+
+    return false;
+}
+```
 
 ### Complexity
 
