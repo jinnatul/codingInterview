@@ -1,4 +1,4 @@
-const flipBitToWin = number =>
+const FlipBitToWin = number =>
 {
     let binaryString = number.toString(2)
     //console.log(`binary form of number ${binaryString}`)
@@ -19,4 +19,4 @@ const flipBitToWin = number =>
     return longest
 }
 
-console.log(flipBitToWin(1775)) //8
+console.log(FlipBitToWin(1775)) //8

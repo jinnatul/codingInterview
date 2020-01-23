@@ -9,12 +9,14 @@ Output: N = 10001001100
 **Explanation**
 
 We can solve this problem in JavaScript and C++. To solve this problem we make a function which takes four parameters N, M, i, j. N and M is given as string in binary format, i and j is given in integer format. <br>
+
 First of all, we split the N and M and store them into n and m variable.
 ```
 let n = N.split('');
 let m = M.split('');
 ```
-Now we get the length of splitted N and M and store them in nLength and mLength. <br>
+Now we get the length of splitted N and M and store them in `nLength` and `mLength`. <br>
+
 Now we use a for loop which starts from 0 and iterate to `j-i+1`. Now we set the value of ` m[mlength - a]` to ` n[nlength - (i + a)]`. Lastly we join n and return the result. It will give us the result in binary format. 
 
 **Another Solution**

@@ -1,4 +1,4 @@
-const countBits = number =>
+const CountBits = number =>
 {
     let string = number.toString(2)
     return string.split('').reduce((numBits, char) =>
@@ -8,9 +8,9 @@ const countBits = number =>
     }, 0)
 }
 
-const conversion = (firstNumber, secondNumber) =>{
+const Conversion = (firstNumber, secondNumber) =>{
 
-    return countBits(firstNumber ^ secondNumber)
+    return CountBits(firstNumber ^ secondNumber)
 } 
 
-console.log(conversion(29, 15)) // 2
+console.log(Conversion(29, 15)) // 2

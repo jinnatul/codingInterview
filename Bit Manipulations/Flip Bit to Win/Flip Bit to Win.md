@@ -9,7 +9,8 @@ Output: 8
 
 **Explanation**
 The main goal of this problem is to find any 0 which we can flip and the total number of 1 is the highest number until the other 0 is found. <br>
-Now to solve this problem we make a function named fliBitToWin which takes one parameter `number`. Now we need to convert the number into binary format (`let binaryString = number.toString(2)`). In binary format the result will look like this -
+
+Now to solve this problem we make a function named `FliBitToWin` which takes one parameter `number`. Now we need to convert the number into binary format (`let binaryString = number.toString(2)`). In binary format the result will look like this -
 ```
 11011101111
 ```
