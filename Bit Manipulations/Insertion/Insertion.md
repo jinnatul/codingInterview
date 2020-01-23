@@ -18,5 +18,7 @@ Now we get the length of splitted N and M and store them in nLength and mLength.
 Now we use a for loop which starts from 0 and iterate to `j-i+1`. Now we set the value of ` m[mlength - a]` to ` n[nlength - (i + a)]`. Lastly we join n and return the result. It will give us the result in binary format. 
 
 **Another Solution**
+
 Here is another solution in JavaScript which takes N and M as decimal integer instead of string in binary format. 
+
 [Alternative Solution](/Bit%20Manipulations/Insertion/Insertion.js)
