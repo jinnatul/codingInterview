@@ -5,6 +5,7 @@ const Insertion = (N, M, i, j) =>
     let nLength = n.length - 1
     let mLength = m.length - 1
 
+    console.log(j-i+1)
     for(let a = 0; a < j - i + 1; a++)
     {
         n[nLength - (i + a)] = m[mLength - a]
