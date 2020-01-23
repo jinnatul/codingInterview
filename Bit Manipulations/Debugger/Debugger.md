@@ -36,7 +36,7 @@ Any non-power-of-two input value (other than zero) will not give you zero when y
 14   1110   1101    1100
 15   1111   1110    1110
 ```
-If we print all number from `0 - 100` through the function that we made in the [.js file]([Code in JavaScript](/Bit%20Manipulations/Debugger/Debugger.js)) then we can see only 0 and the power of 2 return true and the rest return false. <br>
+If we print all number from `0 - 100` through the function that we made in the [.js file](/Bit%20Manipulations/Debugger/Debugger.js) then we can see only 0 and the power of 2 return true and the rest return false. <br>
 From 0 - 100 the function return true to these values <br>
 ` 0 , 1, 2, 4, 8, 16, 32, 64` <br>
 These all are the 0 and the exact power of 2. 
