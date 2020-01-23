@@ -9,7 +9,9 @@ pale, bale -> true
 pale, bake -> false
 ```
 
-[Solution in JavaScript](/Array%20and%20Strings/Array/OneAway/oneAway.js)
+- [Solution in C++](/Array%20and%20Strings/Array/OneAway/OneAway01.cpp)
+- [Solution in C++](/Array%20and%20Strings/Array/OneAway/OneAway02.cpp)
+- [Solution in JavaScript](/Array%20and%20Strings/Array/OneAway/oneAway.js)
 
 **Explanation**
 
@@ -20,6 +22,35 @@ If the character is not same then we will check if the boolean variable `isEdite
 Then we will check if the length of the `firstString` and `secondString`. If `firstString` length is greater than `secondString` length then we will decrease `j` means deleting character from `firstString` On the other hand, if the length of the `firstString` is less than `secondString` then we will decrease `i` means deleting character from `secondString`. <br>
 Then we will set the isEdited variable to true as the string is edited.
 After the for loop return true.
+
+```
+bool OneAway(string str1, string str2)
+{
+    int ln1 = str1.length();
+    int ln2 = str2.length();
+
+    if(abs(ln1 - ln2) > 1) return false;
+
+    string big = ln1 < ln2 ? str1 : str2;
+    string small = ln1 < ln2 ? str2 : str1;
+
+    ll pos1 = 0, pos2 = 0;
+    bool findDifference = false;
+
+    while (pos2 < small.length() && pos1 < big.length()) {
+        if(small[pos2] != big[pos1]) {
+            if (findDifference) return false;
+            findDifference = true;
+            if(small.length() == big.length()) pos1++;
+        }
+        else pos1++;
+        pos2++;
+    }
+
+    return true;
+}
+
+```
 
 ### Complexity
 
