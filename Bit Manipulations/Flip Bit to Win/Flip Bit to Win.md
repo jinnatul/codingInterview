@@ -5,7 +5,7 @@ Input: 1775 (or : 11011101111)
 Output: 8 
 ```
 
-[Solution in JavaScript]()
+[Solution in JavaScript](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin.js)
 
 **Explanation**
 The main goal of this problem is to find any 0 which we can flip and the total number of 1 is the highest number until the other 0 is found. <br>
