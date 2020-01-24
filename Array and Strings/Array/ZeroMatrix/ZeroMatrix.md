@@ -16,7 +16,8 @@ Output:
 ]
 ```
 
-[Solution in JavaScript](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix.js)
+- [Solution in C++](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix01.cpp)
+- [Solution in JavaScript](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix.js)
 
 **Explanation**
 
