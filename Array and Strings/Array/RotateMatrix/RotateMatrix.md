@@ -1,6 +1,9 @@
 ## Question: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes. Write a method to rotate the image by 90 degrees. Can you do this in place?
 
-[Solution in JavaScript](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix.js)
+
+- [Solution in C++](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix01.cpp)
+- [Solution in C++](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix02.cpp)
+- [Solution in JavaScript](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix.js)
 
 
 The approach to solve this problem in place is a little bit tricky. We will try to discuss it here. <br>
@@ -56,6 +59,30 @@ a[n-1-i][n-1-j] = 8.
 a[n-1-j][i] = 4.
 Similarly, move these elements in the clockwise direction.
 
+```
+for (int layer = 0; layer < row / 2; ++layer) {
+    int first = layer;
+    int last = row - 1 - layer;
+
+    for (int i = first; i < last; ++i) {
+        int offSet = i - first;
+        int top = matrix[first][i]; //save top
+
+        // left -> top
+        matrix[first][i] = matrix[last - offSet][first];
+
+        // bottom -> left
+        matrix[last - offSet][first] = matrix[last][last - offSet];
+
+        // right -> bottom
+        matrix[last][last - offSet] = matrix[i][last];
+
+        // top -> right
+        matrix[i][last] = top;
+
+    }
+}
+```
 
 ### Complexity
 
