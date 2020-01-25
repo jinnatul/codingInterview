@@ -46,7 +46,7 @@ bool checkPermutation(string str1, string str2)
 }
 ```
 
-### Solution and Explanation in C++ 
+### Solution and Explanation in C++
 
 [Solution in C++](#)
 
