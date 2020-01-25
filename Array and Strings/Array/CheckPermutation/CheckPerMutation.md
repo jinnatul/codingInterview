@@ -1,10 +1,13 @@
 ## Question: Given two strings, write a method to decide if one is a permutation of the others
 
-- [Solution in C++](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation01.cpp)
-- [Solution in C++](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation02.cpp)
-- [Solution in JavaScript](/Array%20and%20Strings/Array/CheckPermutation/checkPermutation.js)
+- [JavaScript](#solution-and-explanation-in-javascript)
+- [C++](#solution-and-explanation-in-c++)
+- [Complexity](#complexity)
 
-**Explanation**
+<br>
+### Solution and Explanation in JavaScript
+
+[Solution in JavaScript](/Array%20and%20Strings/Array/CheckPermutation/checkPermutation.js)
 
 In the above solution we use JavaScript default function to get our expected output and another solution we use c++ sort function. In the solution we make a function named `checkPermutation` which takes two parameters `firstString` and `secondString`. First of all we check if the both string have same length of characters or not. If both string have same string length then we will proceed to our next step, if not then we will return false. <br>
 If both string have same length then we will split the string using split function with empty string `split('')`. Lets say, our first string is `javascript`. After splitting the string we get our string like this -
@@ -41,6 +44,16 @@ bool checkPermutation(string str1, string str2)
     return false;
 }
 ```
+
+### Solution and Explanation in C++ 
+
+[Solution in C++](#)
+lsdkjflksdjflskdfjoieaf;dsjfdskljfaifkldsjflsdkfjsadlkfjsdlkfjehjghadfjskf9eflksajfoiejfasdf
+sadfjlsdkjflksdfjoieflksajflksdjfoiehggkj iweoujroweifjojf jeflskdjfoieflefjoiwhfnlkafmasdf
+sdfjlskdjflskdjfoiewfjlksadjfiehfegpqehgpqrupwurpweiruoiwrujwfsdfuytoajfsdkjf;sdlkfjosaidjf
+asdfjlskdjfoeiwfjaslfn;ksdfjsadfj;asdjfoeiihfguihregasgnsfgosifoiewfjoewjfosdjf;lksdjfo9eijfas
+dfsdjflksdjfoiejfla;skjfsaodifjoasifjae;fjas;dljfasoifjpa;ifja;sifjaoijfoewihfa;skljfm;askjfoaijf
+afasjf;asdjf;aoefasdjf;asoifjeowifjas
 
 ### Complexity
 
