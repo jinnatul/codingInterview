@@ -1,7 +1,7 @@
 ## Question: Given two strings, write a method to decide if one is a permutation of the others
 
 - [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in C++](#solution-and-explanation-in-c++)
+- [Solution in C++](#solution-and-explanation-in-cpp)
 - [Complexity](#complexity)
 
 <br>
@@ -46,7 +46,7 @@ bool checkPermutation(string str1, string str2)
 }
 ```
 
-### Solution and Explanation in C++
+### Solution and Explanation in CPP
 
 [Solution in C++](#)
 
