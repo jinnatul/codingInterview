@@ -1,4 +1,4 @@
- **Contents**
+**Contents**
 
 - [Question](#question)
 - [Solution in JavaScript](#solution-and-explanation-in-javascript)
