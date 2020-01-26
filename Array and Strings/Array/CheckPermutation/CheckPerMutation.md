@@ -1,12 +1,15 @@
-## Question: Given two strings, write a method to decide if one is a permutation of the others
+ **Contents**
 
+- [Question](#question)
 - [Solution in JavaScript](#solution-and-explanation-in-javascript)
 - [Solution in CPP](#solution-and-explanation-in-cpp)
-- [Complexity](#complexity)
 
-<br>
 
-### Solution and Explanation in JavaScript
+## Question
+
+*Given two strings, write a method to decide if one is a permutation of the others*
+
+## Solution and Explanation in JavaScript
 
 [View code](/Array%20and%20Strings/Array/CheckPermutation/checkPermutation.js)
 
@@ -40,9 +43,10 @@ We will do this for both of the string and check if the both string is equal or 
 **Runtime Complexity**: O(n log n)
 
 
-### Solution and Explanation in CPP
+## Solution and Explanation in CPP
 
-[Solution in C++](#)
+[Solution in CPP](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation01.cpp)
+[Another Solution in CPP](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation02.cpp)
 
 ```
 bool checkPermutation(string str1, string str2)
