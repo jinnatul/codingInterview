@@ -32,4 +32,4 @@ Now we use a for loop which starts from 0 and iterate to `j-i+1`. Now we set the
 
 Here is another solution in JavaScript which takes N and M as decimal integer instead of string in binary format. 
 
-## Solution and Explanatio in CPP
+## Solution and Explanation in CPP

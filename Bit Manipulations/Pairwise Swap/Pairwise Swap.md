@@ -22,4 +22,4 @@ If the bit is not odd then check if the right most bit of `oddBits` is undefined
 
 **Runtime Complexity**: O(n)
 
-## Solution and Explanatio in CPP
+## Solution and Explanation in CPP
