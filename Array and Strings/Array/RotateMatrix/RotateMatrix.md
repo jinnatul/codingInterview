@@ -1,10 +1,17 @@
-## Question: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes. Write a method to rotate the image by 90 degrees. Can you do this in place?
+**Contents**
+
+- [Question](#question)
+- [Solution in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution in CPP](#solution-and-explanation-in-cpp)
+
+## Question
+
+*Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes. Write a method to rotate the image by 90 degrees. Can you do this in place?*
 
 
-- [Solution in C++](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix01.cpp)
-- [Solution in C++](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix02.cpp)
-- [Solution in JavaScript](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix.js)
+## Solution and Explanation in JavaScript
 
+[View code](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix.js)
 
 The approach to solve this problem in place is a little bit tricky. We will try to discuss it here. <br>
 
@@ -50,6 +57,7 @@ a[n-1-j][i] = Leftmost corner bottom element = 7.
 Move these elements in the clockwise direction.
 
 During second iteration –
+
 a[i][j] = 2.
 
 a[j][n-1-j] = 6.
@@ -57,7 +65,19 @@ a[j][n-1-j] = 6.
 a[n-1-i][n-1-j] = 8.
 
 a[n-1-j][i] = 4.
+
 Similarly, move these elements in the clockwise direction.
+
+
+### Complexity
+
+**Runtime Complexity**: O(n^2) <br>
+**Space Complexity**: O(1)
+
+## Solution and Explanation in CPP
+
+- [View code](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix01.cpp)
+- [View code](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix02.cpp)
 
 ```
 for (int layer = 0; layer < row / 2; ++layer) {
@@ -83,8 +103,3 @@ for (int layer = 0; layer < row / 2; ++layer) {
     }
 }
 ```
-
-### Complexity
-
-**Runtime Complexity**: O(n^2) <br>
-**Space Complexity**: O(1)

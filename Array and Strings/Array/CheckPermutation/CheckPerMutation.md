@@ -45,8 +45,7 @@ We will do this for both of the string and check if the both string is equal or 
 
 ## Solution and Explanation in CPP
 
-[Solution in CPP](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation01.cpp)
-[Another Solution in CPP](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation02.cpp)
+[View code](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation01.cpp)
 
 ```
 bool checkPermutation(string str1, string str2)
@@ -59,3 +58,5 @@ bool checkPermutation(string str1, string str2)
     return false;
 }
 ```
+
+[View code](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation02.cpp)
