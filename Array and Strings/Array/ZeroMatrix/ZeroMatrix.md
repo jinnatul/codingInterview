@@ -1,4 +1,11 @@
-## Question: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0
+**Contents**
+
+- [Question](#question)
+- [Solution in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution in CPP](#solution-and-explanation-in-cpp)
+
+## Question
+*Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0*
 
 #### Example 
 ```
@@ -16,10 +23,9 @@ Output:
 ]
 ```
 
-- [Solution in C++](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix01.cpp)
-- [Solution in JavaScript](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix.js)
+## Solution and Explanation in JavaScript
 
-**Explanation**
+[View code](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix.js)
 
 For this problem we need to mark the `0` in the matrix where they occured. Then we need to change respected columns and rows wtih 0 where first `0` is occured. <br>
 First we take two boolean variable `colZero` and `rowZero` and set them to false. Then we take two integer variable which will store the row and column of the matrix. <br>
@@ -81,3 +87,7 @@ At last we return the matrix.
 ### Complexity
 **Runtime Complexity**: O(m*n) <br>
 **Space Complexity**: O(1)
+
+## Solution and Explanation in CPP
+
+[View code](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix01.cpp)
