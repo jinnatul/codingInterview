@@ -1,10 +1,16 @@
-## Question: Write a program to swap odd and even bits in an integer with as few instructions as possible
+**Contents**
 
-We can solve this problem in JavaScript and C++. 
+- [Question](#question)
+- [Solution in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution in CPP](#solution-and-explanation-in-cpp)
 
-[Solution in JavaScript](/Bit%20Manipulations/Pairwise%20Swap/PairWiseSwap.js)
+## Question
 
-**Expalanation**
+*Write a program to swap odd and even bits in an integer with as few instructions as possible*
+
+## Solution and Explanation in JavaScript
+
+[View code](/Bit%20Manipulations/Pairwise%20Swap/PairWiseSwap.js)
 
 To solve this problem we make a function `PairWiseSwap` which takes one parameter of given number. Lets convert the number into binary format and store in `binarBits` variable, right shift one bit and store in `oddBits` and left shift one bit and store `evenBits`. Another two variable `isOdd` and set it to true and `answer` to empty string. <br>
 
@@ -15,3 +21,5 @@ If the bit is not odd then check if the right most bit of `oddBits` is undefined
 ### Complexity 
 
 **Runtime Complexity**: O(n)
+
+## Solution and Explanatio in CPP

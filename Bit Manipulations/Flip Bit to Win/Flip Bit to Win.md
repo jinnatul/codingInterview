@@ -1,13 +1,20 @@
-## Question: You have an integer and you can flip exactly one bit from a 0 to a 1. Write code to find the length of the longest sequence of 1s you could create.
-**Example**
+**Contents**
+
+- [Question](#question)
+- [Solution in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution in CPP](#solution-and-explanation-in-cpp)
+
+## Question
+*You have an integer and you can flip exactly one bit from a 0 to a 1. Write code to find the length of the longest sequence of 1s you could create.*
+#### Example
 ```
 Input: 1775 (or : 11011101111)
 Output: 8 
 ```
+## Solution and Explanation in JavaScript
 
-[Solution in JavaScript](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin.js)
+[View code](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin.js)
 
-**Explanation**
 The main goal of this problem is to find any 0 which we can flip and the total number of 1 is the highest number until the other 0 is found. <br>
 
 Now to solve this problem we make a function named `FliBitToWin` which takes one parameter `number`. Now we need to convert the number into binary format (`let binaryString = number.toString(2)`). In binary format the result will look like this -
@@ -26,3 +33,5 @@ Now `if(arrOnes[i].length + arrOnes[i+1].length > longest)` for the first iterat
 
 **Runtime Complexity**: O(n)
 **Space Complexity**: O(n)
+
+## Solution and Explanation in CPP

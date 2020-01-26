@@ -1,9 +1,15 @@
-## Question: Given a real number between 0 and 1 (e.g. 0.72) that is passed in as a double, print the binary representation. If the number cannot be represented accurately in binary with at most 32 characters, print 'ERROR'.
+**Contents**
 
+- [Question](#question)
+- [Solution in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution in CPP](#solution-and-explanation-in-cpp)
 
-[Solution in JavaScript](/Bit%20Manipulations/Binary%20to%20String/BinaryToString.js)
+## Question
+*Given a real number between 0 and 1 (e.g. 0.72) that is passed in as a double, print the binary representation. If the number cannot be represented accurately in binary with at most 32 characters, print 'ERROR'.*
 
-**Explanation**
+## Solution and Explanation in JavaScript
+
+[View code](/Bit%20Manipulations/Binary%20to%20String/BinaryToString.js)
 
 First, let's start off by asking ourselves what a non integer number in binary look like. By analogy to decimal number, the binary 0.101 would look like:
 
@@ -22,7 +28,7 @@ Lastly we check if n exceeds 32 bits. If exceeds 32 bits then return `ERROR` els
 **Time Complexity**: O(n) <br>
 **Space Compelxity**: O(1)
 
-
+## Solution and Explanation in CPP
 
 
 

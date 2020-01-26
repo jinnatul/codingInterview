@@ -1,13 +1,21 @@
-## Question: Write a function to determine the number of bits you would need to flip to convert integer A to integer B. 
-**Example**
+**Contents**
+
+- [Question](#question)
+- [Solution in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution in CPP](#solution-and-explanation-in-cpp)
+
+## Question
+*Write a function to determine the number of bits you would need to flip to convert integer A to integer B.*
+#### Example
 ```
 Input: 29 (or : 11101), 15 (or : 01111)
 Output: 2 
 ```
 
-[Solution in JavaScript](/Bit%20Manipulations/Conversion/Conversion.js)
+## Solution and Explanation in JavaScript
 
-**Explanation**
+[View code](/Bit%20Manipulations/Conversion/Conversion.js)
+
 For this solution we can make two functions, one is used for counting the bits and another to get double input numbers. <br>
 In `conversion` function we get two number `firstNumber` and `secondNumber` from parameter and pass the calculation of firstNumber power of secondNumber. (`countBits(firstNumber ^ secondNumber)`) <br>
 
@@ -31,3 +39,5 @@ numBits 2 and char is 0
 
 ### Complexity
 **Runtime Complexity**: O(n)
+
+## Solution and Explanation in CPP

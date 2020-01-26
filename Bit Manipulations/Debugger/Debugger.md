@@ -1,10 +1,17 @@
-## Question: Explain what the following code does
+**Contents**
+
+- [Question](#question)
+- [Solution in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution in CPP](#solution-and-explanation-in-cpp)
+
+## Question
+*Explain what the following code does*
 ```
 ((n & (n - 1)) == 0)
 ```
-[Code in JavaScript](/Bit%20Manipulations/Debugger/Debugger.js)
+## Solution and Explanation in JavaScript
 
-**Explanation**
+[View code](/Bit%20Manipulations/Debugger/Debugger.js)
 
 `((n & (n - 1)) == 0)` this equation figures out if `n` is either 0 or an exact power of `2`. <br>
 
@@ -47,3 +54,5 @@ These all are the 0 and the exact power of 2.
 
 ### Complexity
 **Runtime Complexity** : The worst time complexity is O(log n) when every bit is set. 
+
+## Solution and Explanation in CPP
