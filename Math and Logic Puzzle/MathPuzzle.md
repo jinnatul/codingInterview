@@ -14,4 +14,51 @@
   
  
 # Custom Questions
-**Table of Contents:**
+
+  ## Number Theory
+    
+   * [Euclidean Algorithm – Greatest Common Divisor]()
+   * [Lowest Common Multiple of Two Number]()
+     * [UVa 11388 – GCD LCM]()
+   * [Primality Test – Naive Methods]()
+   * [Sieve of Eratosthenes – Generating Primes]()
+     * [Segmented Sieve of Eratosthenes]()
+   * [Prime Number Theorem]()
+   * [Prime Factorization of an Integer]()
+     * [Number of Divisors of an Integer]()
+       * [Highly Composite Numbers]()
+       * [Upper Bound for Number Of Divisors]()
+       * [Divisor Summatory Function]()
+     * [Sum of Divisors of an Integer]()
+   * [Introduction to Modular Arithmetic]()
+     * [UVa 10407 – Simple division]()
+   * [Extended Euclidean Algorithm]()
+     * [Linear Diophantine Equation]()
+   * [Simple Hyperbolic Diophantine Equation]()
+   * [Introduction to Number Systems]()
+     * [Bitwise Operators]()
+     * [Bit Manipulation]()
+   * Factorial
+     * [Number of Digits of Factorial]()
+     * [Prime Factorization of Factorial]()
+     * [Number of Trailing Zeroes of Factorial]()
+     * [Leading Digits of Factorial]()
+   * [Modular Exponentiation]()
+     * [Repeated Squaring Method for Modular Exponentiation]()
+   * [Euler Totient or Phi Function]()
+     * [Euler Phi Extension and Divisor Sum Theorem]()
+       * [SPOJ LCMSUM – LCM Sum]()
+     * [Euler’s Theorem and Fermat’s Little Theorem]()
+     * [Sum of Co-prime Numbers of an Integer]()
+   * [Modular Multiplicative Inverse]()
+     * [Modular Inverse from 1 to N]()
+   * Chinese Remainder Theorem
+     * [Chinese Remainder Theorem Part 1 – Coprime Moduli]()
+     * [Chinese Remainder Theorem Part 2 – Non Coprime Moduli]()
+   * [Multiplicative Function]()
+     * [GCD Sum Function]()
+
+
+
+### References
+- https://forthright48.com/p-cpps-101/
