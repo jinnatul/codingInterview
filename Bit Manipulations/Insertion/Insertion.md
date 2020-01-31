@@ -33,3 +33,28 @@ Now we use a for loop which starts from 0 and iterate to `j-i+1`. Now we set the
 Here is another solution in JavaScript which takes N and M as decimal integer instead of string in binary format. 
 
 ## Solution and Explanation in CPP
+
+```
+ll Insertion1(ll num1, ll num2, ll i, ll j) {
+    //will equal sequence of all 1s
+    ll allOne = ~0;
+
+    // 1s before position j, then 0s.
+    ll left = allOne << (j + 1);
+
+    // 1s after position i.
+    ll right = (1 << i) - 1;
+
+    // All 1s, except for 0s between i and j.
+    ll mask = left | right;
+
+    // clear bits j through i then put num2 in there
+    ll n_Cleared = num1 & mask; // clear bit j through i
+    ll m_Shifted = num2 << i; // move num2 into current position
+
+    return n_Cleared | m_Shifted;
+}
+
+```
+- [1st Way](/Bit%20Manipulations/Insertion/Insertion1.cpp)
+- [2nd Way](/Bit%20Manipulations/Insertion/Insertion2.cpp)
