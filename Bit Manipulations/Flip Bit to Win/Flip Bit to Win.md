@@ -13,7 +13,7 @@ Output: 8
 ```
 ## Solution and Explanation in JavaScript
 
-[View code](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin.js)
+- [View code](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin.js)
 
 The main goal of this problem is to find any 0 which we can flip and the total number of 1 is the highest number until the other 0 is found. <br>
 
@@ -29,9 +29,46 @@ Now we take a variable `longest` and set it to `0`. Now we do a for loop which s
 
 Now `if(arrOnes[i].length + arrOnes[i+1].length > longest)` for the first iteration this line gives `2 + 3` which is the number of 1s after splitting the string with 0. Store the summation in `longest` variable. When the loop is over we increase longest variable by 1 and return it. <br>
 
+## Solution and Explanation in CPP
+
+```
+Input: 1775 (11011101111)
+OutPut: 8
+```
+### Functions
+```
+void FlipBitToWin() {
+    ll num;
+    cin >> num;
+
+    // If all 1s, so it's long length
+    if(~num == 0) {
+        cout << numToBinary(num) << endl;
+        return;
+    }
+
+    ll currentLength = 0, preViousLength = 0, maxLength = 1;
+
+    while (num != 0) {
+        if ((num & 1) == 1) currentLength++; // current bit is 1
+        else {
+            preViousLength = (num & 2) == 0 ? 0 : currentLength;
+            currentLength = 0;
+        }
+        maxLength = max(maxLength, preViousLength + currentLength + 1);
+        num >>= 1;
+    }
+    
+   cout << maxLength << endl;
+}
+
+```
+
+- [1st Way](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin01.cpp)
+- [2nd Way](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin02.cpp)
+
+
 ### Complexity
 
 **Runtime Complexity**: O(n)
 **Space Complexity**: O(n)
-
-## Solution and Explanation in CPP
