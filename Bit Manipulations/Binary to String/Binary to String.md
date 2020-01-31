@@ -103,7 +103,7 @@ void BinaryToString() {
 ```
 
 - [1st Way](/Bit%20Manipulations/Binary%20to%20String/BinaryToString01.cpp)
-
+- [2nd Way](/Bit%20Manipulations/Binary%20to%20String/BinaryToString02.cpp)
 
 ### Complexity
 **Time Complexity**: O(n) <br>
