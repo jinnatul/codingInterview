@@ -33,3 +33,16 @@ let array2 = [5, 6, 7, 8, 9]
 let n = 5, m = 5, finalArraySize = 10
 SortedMerge(array1, array2, n, m)
 PrintArray(array1, finalArraySize)
+/**
+ * 
+5 
+6 
+7 
+8 
+9 
+10 
+12 
+13 
+14 
+16 
+ */
