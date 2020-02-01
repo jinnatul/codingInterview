@@ -9,7 +9,7 @@
 
 ## Solution and Explanation in JavaScript
 
-[View code](/Bit%20Manipulations/Draw%20Line/DrawLine.js)
+- [View code](/Bit%20Manipulations/Draw%20Line/DrawLine.js)
 
 Monochrome image means an image which is composed of one color. A photo or picture developed or executed in black and white or in varying tones of only one color. <br>
 
@@ -20,7 +20,46 @@ We take a for loop (` for (var i = x1; i <= x2; i++)`) which starts from `x1` an
 We make another function named as `FindPixel` which takes i as parameter and return remainder of i divided by 8. <br>
 Lets store them in our predefined variable `byte` and `pixel`. Set them `screen` array and set the array value to 1. Lastly return the array. 
 
-### Complexity
-**Runtime Complexity**: O(n)
 
 ## Solution and Explanation in CPP
+
+```
+ll findByte(ll x, ll y, ll width) {
+    ll start = y * width / 8;
+    return start + floor(x / 8);
+}
+
+ll findPixel(ll x) {
+    return x % 8;
+}
+
+void DrawLine() {
+    ll screen[8][8] = {{0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0},
+                       {0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0},
+                       {0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0},
+                       {0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0},
+                       };
+    ll width, x1, x2, y;
+    cin >> width >> x1 >> x2 >> y;
+
+    ll byte, pixel;
+    for (ll i = x1; i <= x2; ++i) {
+        byte = findByte(i, y, width);
+        pixel = findPixel(i);
+        screen[byte][pixel] = 1;
+    }
+
+    for (int i = 0; i < 8; ++i) {
+        for (int j = 0; j < 8; ++j) {
+            cout << screen[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+```
+
+- [CodeHere 1st Way](/Bit%20Manipulations/Draw%20Line/DrawLine01.cpp)
+
+
+### Complexity
+**Runtime Complexity**: O(n)
