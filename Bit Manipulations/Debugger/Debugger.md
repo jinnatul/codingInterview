@@ -11,7 +11,7 @@
 ```
 ## Solution and Explanation in JavaScript
 
-[View code](/Bit%20Manipulations/Debugger/Debugger.js)
+- [View code](/Bit%20Manipulations/Debugger/Debugger.js)
 
 `((n & (n - 1)) == 0)` this equation figures out if `n` is either 0 or an exact power of `2`. <br>
 
@@ -52,7 +52,40 @@ From 0 - 100 the function return true to these values <br>
 
 These all are the 0 and the exact power of 2. 
 
+## Solution and Explanation in CPP
+
+```
+void Debugger() {
+    ll num;
+    cin >> num;
+
+    for (ll i = 1; i <= num; ++i) {
+        cout << ((i & (i - 1)) == 0) << endl;
+    }
+}
+```
+
+```
+Number 2^n
+1      1
+2      1
+3      0
+4      1
+5      0
+6      0
+7      0
+8      1
+9      0
+10     0
+11     0
+12     0
+13     0
+14     0
+15     0
+16     1
+```
+
+- [CodeHere-> 1st Way](/Bit%20Manipulations/Debugger/Debugger01.cpp)
+
 ### Complexity
 **Runtime Complexity** : The worst time complexity is O(log n) when every bit is set. 
-
-## Solution and Explanation in CPP
