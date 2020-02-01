@@ -13,3 +13,8 @@
  
   # Custom Questions
   **Table of Contents:**
+
+
+# References
+- Cracking the coding interview 6th edition (Gayle Laakmann Mcdowell)
+- https://medium.com/@afshanf/cracking-the-coding-interview-questions-part-4-3e0d3b2c64d0
