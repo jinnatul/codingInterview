@@ -1,8 +1,9 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 
@@ -16,10 +17,6 @@ To solve this problem we make a function which has one parameter which takes a s
 **for...of** creates a loop iterating over iterable objects including: built-in `String`, `Array`, Array-like objects (e.g. `arguments` or `NodeList`), `TypedArray`, `Map`, `Set` and user defined iterables. It invokes a custom iteration hook with statemnets to be executed for the value of each distinct property of the object. <br>
 First of all we make an object of `Set` class. Then we will make a `for...of` loop to iterate through the string. We will ignore the empty strings `if(char !== ' ')`. Then we will check if the `char` is already in `Set` object or not. If it is already in the object (`if(str.has(char))`) then we will delete (`str.delete(char)`) the character from the list but if it is not then we will add (`str.add(char)`) the character in the list. <br>
 Lastly we will return `true` if the `str.size` less than or equal to 1. 
-
-### Complexity
-**Runtime Complexity**: O(n) <br>
-**Space Complexity**: O(n)
 
 ## Solution and Explanation in CPP 
 
@@ -52,3 +49,6 @@ bool PalindromePermutation(string str)
     return false;
 }
 ```
+## Complexity
+**Runtime Complexity**: O(n) <br>
+**Space Complexity**: O(n)

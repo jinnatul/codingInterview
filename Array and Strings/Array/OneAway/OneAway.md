@@ -1,13 +1,15 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+  - [Example](#example)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 *There are three types of edits that can be performed on strings; insert a character, remove a character or replace a character. Given two strings, write a function to check if they are one edit (or zero edit) away.*
 
-### EXAMPLE 
+### Example
 
 ```
 pale, ple -> true
@@ -27,13 +29,6 @@ If the character is not same then we will check if the boolean variable `isEdite
 Then we will check if the length of the `firstString` and `secondString`. If `firstString` length is greater than `secondString` length then we will decrease `j` means deleting character from `firstString` On the other hand, if the length of the `firstString` is less than `secondString` then we will decrease `i` means deleting character from `secondString`. <br>
 Then we will set the isEdited variable to true as the string is edited.
 After the for loop return true.
-
-
-### Complexity
-
-**Runtime Complexity**: O(n) <br>
-**Additional Space Complexity**: O(1)
-
 
 ## Solution and Explanation in CPP
 
@@ -69,3 +64,7 @@ bool OneAway(string str1, string str2)
 }
 
 ```
+## Complexity
+
+**Runtime Complexity**: O(n) <br>
+**Additional Space Complexity**: O(1)
