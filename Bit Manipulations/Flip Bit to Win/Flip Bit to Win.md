@@ -1,8 +1,11 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+    - [Example](#example)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+  - [Functions](#functions)
+- [Complexity](#complexity)
 
 ## Question
 *You have an integer and you can flip exactly one bit from a 0 to a 1. Write code to find the length of the longest sequence of 1s you could create.*
@@ -68,7 +71,7 @@ void FlipBitToWin() {
 - [2nd Way](/Bit%20Manipulations/Flip%20Bit%20to%20Win/FlipBitToWin02.cpp)
 
 
-### Complexity
+## Complexity
 
 **Runtime Complexity**: O(n)
 **Space Complexity**: O(n)

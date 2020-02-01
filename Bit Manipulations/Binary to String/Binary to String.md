@@ -1,8 +1,10 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+  - [Functions](#functions)
+- [Complexity](#complexity)
 
 ## Question
 *Given a real number between 0 and 1 (e.g. 0.72) that is passed in as a double, print the binary representation. If the number cannot be represented accurately in binary with at most 32 characters, print 'ERROR'.*
@@ -105,6 +107,7 @@ void BinaryToString() {
 - [1st Way](/Bit%20Manipulations/Binary%20to%20String/BinaryToString01.cpp)
 - [2nd Way](/Bit%20Manipulations/Binary%20to%20String/BinaryToString02.cpp)
 
-### Complexity
+## Complexity
+
 **Time Complexity**: O(n) <br>
 **Space Compelxity**: O(1)

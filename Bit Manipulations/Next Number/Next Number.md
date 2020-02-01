@@ -1,8 +1,9 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 *Give a positive integer, print the next smallest and the next largest number that have the same number of 1 bits in their binary representation*
@@ -49,6 +50,7 @@ void NextNumber() {
 
 - [CodeHere-> 1st Way](/Bit%20Manipulations/Next%20Number/NextNumber01.cpp)
 
-### Complexity
+## Complexity
+
 **Time Complexity**: O(n) <br>
 **Space Compelxity**: O(1)

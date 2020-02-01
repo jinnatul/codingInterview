@@ -1,8 +1,9 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 
@@ -38,6 +39,6 @@ void PairWiseSwap() {
 - [CodeHere 2nd Way](/Bit%20Manipulations/Pairwise%20Swap/PairWiseSwap02.cpp)
 
 
-### Complexity 
+## Complexity 
 
 **Runtime Complexity**: O(n)
