@@ -14,7 +14,7 @@ Output: 2
 
 ## Solution and Explanation in JavaScript
 
-[View code](/Bit%20Manipulations/Conversion/Conversion.js)
+- [View code](/Bit%20Manipulations/Conversion/Conversion.js)
 
 For this solution we can make two functions, one is used for counting the bits and another to get double input numbers. <br>
 In `conversion` function we get two number `firstNumber` and `secondNumber` from parameter and pass the calculation of firstNumber power of secondNumber. (`countBits(firstNumber ^ secondNumber)`) <br>
@@ -37,7 +37,51 @@ numBits 1 and char is 1
 numBits 2 and char is 0
 ```
 
+## Solution and Explanation in CPP
+
+```
+Input:  29  15
+Output: 2
+Xor = 29 ^ 15 = 18
+Number OddCnt
+18     0
+9      1
+4      1
+2      1
+1      2
+```
+### Functions
+```
+void Conversion() {
+    ll num1, num2;
+    cin >> num1 >> num2;
+
+    ll oddCnt = 0;
+    for (ll i = num1 ^ num2; i != 0; i >>= 1) {
+        oddCnt += (i & 1);
+        cout << i << "    " << oddCnt << endl;
+    }
+
+    cout << oddCnt << endl;
+}
+```
+```
+void Conversion() {
+    ll num1, num2;
+    cin >> num1 >> num2;
+
+    ll oddCnt = 0;
+    for (ll i = num1 ^ num2; i != 0; i = i & (i - 1)) {
+        oddCnt ++;
+    }
+
+    cout << oddCnt << endl;
+}
+```
+
+- [CodeHere-> 1st Way](/Bit%20Manipulations/Conversion/Conversion01.cpp)
+- [CodeHere-> 2nd Way](/Bit%20Manipulations/Conversion/Conversion02.cpp)
+
+
 ### Complexity
 **Runtime Complexity**: O(n)
-
-## Solution and Explanation in CPP
