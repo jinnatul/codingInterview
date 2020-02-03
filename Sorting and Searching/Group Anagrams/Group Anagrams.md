@@ -1,6 +1,6 @@
 **Contents**
 - [Question](#question)
-  - [Explanation](#explanation)
+  - [Example](#example)
 - [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
 - [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
 - [Complexity](#complexity)
@@ -10,7 +10,7 @@
 ## Question
 *Write a method to sort an array of strings so that all the anagrams are next to each other*
 
-### Explanation 
+### Example 
 ```
 input: ['map', 'pam', 'art', 'how', 'rat', 'tar', 'who', 'shoop']
 output: map,pam
