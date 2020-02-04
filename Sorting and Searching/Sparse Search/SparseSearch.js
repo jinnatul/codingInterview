@@ -51,7 +51,7 @@ const sparseSearch = (array, string, n) =>
 
 const array = ["for", "geeks", "", "", "", "", "ide", "practice", "", "", "", "quiz"]
 const x = "geeks"
-const n = x.length
+const n = array.length
 let index = sparseSearch(array, x, n)
 if (index != -1)
 {
