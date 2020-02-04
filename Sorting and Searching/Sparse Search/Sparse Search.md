@@ -16,6 +16,7 @@ Input: b a l l , { " a t " ,"","","","ball","", "car","","","dad",""}
 Output: 4
 ```
 ## Solution and Explanation in JavaScript
+[View code](/Sorting%20and%20Searching/Sparse%20Search/SparseSearch.js)
 
 ## Solution and Explanation in CPP
 
