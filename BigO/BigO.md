@@ -1,3 +1,16 @@
+**Contents**
+- [Big-O Notation](#big-o-notation)
+  - [Space Complexity](#space-complexity)
+  - [Time Complexity](#time-complexity)
+  - [The Most Common Run Time Complexity](#the-most-common-run-time-complexity)
+    - [1. O(1) Constant Runtime Complexity](#1-o1-constant-runtime-complexity)
+    - [2. O(n) Linear Runtime Complexity](#2-on-linear-runtime-complexity)
+    - [3. O(n^2) Quadratic Runtime Complexity](#3-on2-quadratic-runtime-complexity)
+    - [4. O(log n) Logarithmic Runtime Complexity](#4-olog-n-logarithmic-runtime-complexity)
+    - [5. O(n log n) Linearithmic Runtime Complexity](#5-on-log-n-linearithmic-runtime-complexity)
+    - [6. O(2^n) Exponential Runtime Complexity](#6-o2n-exponential-runtime-complexity)
+    - [7. O(n!) Factorial Runtime Complexity](#7-on-factorial-runtime-complexity)
+
 # Big-O Notation
 Big O notation is used to classify algorithms according to how their running time or space requriements grow as the input size grows. Big O notation is a fuzzy word. Because we can't actually pinpoint the complexity of an algorithm rather we assume a complexity. There are two types of complexity - 
 

@@ -1,7 +1,7 @@
 const search = (array, string) => {
     let length = array.length
     let flag = 0
-    for (let i = 0; i < length; i++) {
+    for (let i in array) {
         if (array[i].includes(string)) {
             flag = 1
             console.log(`Found at location ${i}`)

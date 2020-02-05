@@ -28,7 +28,7 @@ const binarySearch = (array, low, high, string) =>
             }
             left--
             right++
-            }
+        }
     }
     if (array[mid] == string)
     {
