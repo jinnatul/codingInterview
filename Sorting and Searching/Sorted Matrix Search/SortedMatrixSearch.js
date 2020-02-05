@@ -11,9 +11,11 @@ const search = (matrix, n, number) => {
             return console.log(`${number} is found at ${i} ${j}`)
         }
         if (matrix[i][j] > number) {
+            console.log(`${matrix[i][j]} greater than number`)
             j--
         }
         else {
+            console.log(`${matrix[i][j]} less than number`)
             i++
         }
     }
