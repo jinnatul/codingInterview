@@ -3,6 +3,7 @@
 - [Question](#question)
   - [Example](#example)
 - [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+  - [Another solution in JavaScript](#another-solution-in-javascript)
 - [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
 - [Complexity](#complexity)
 
@@ -42,6 +43,10 @@ Algorithm goes like this -
 3. At each element, swap it with the previous element. Since every three elements appear in the order ` small <= medium <= large`, swaping these elements will always put medium as a peak `medium <= small <= large`.
 
 This approach will ensure that the peaks are in the right place indexes 1, 3, 5 and so on. As long as the odd numbered elements (the peaks) are bigger that the adjacent elements, then the even-numbered elements (the valleys) must be smaller than the adjacent elements. 
+
+### Another solution in JavaScript
+
+[View code](PeaksAndVallyes2.js)
 
 ## Solution and Explanation in CPP
 
