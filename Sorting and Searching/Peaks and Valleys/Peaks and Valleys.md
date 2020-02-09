@@ -19,7 +19,7 @@ Output: (5, 1, 3, 2, 3)
 
 ## Solution and Explanation in JavaScript
 
-[View code](/Sorting%20and%20Searching/Peaks%20and%20Valleys/PeaksAndValleys.js)
+[View code](PeaksAndValleys.js)
 
 Since the problem asks us to sort the array in a particular way, one thing we can try is doing a normal sort and then fixing the array into an alternating sequence of peaks and valleys. <br>
 
@@ -48,7 +48,12 @@ This approach will ensure that the peaks are in the right place indexes 1, 3, 5 
 
 [View code](PeaksAndVallyes2.js)
 
-## Solution and Explanation in CPP
+In this solution, we don't sort the array. We make a function `sortValleyPeak` which only takes the array. Then we iterate through the array by two index. In `biggestIndex` variable we store the maximum value that we get from the `maxIndex` function. <br>
+In the `maxIndex` function we pass the array, value of previous index, current index, next index. Now we take three variable `aValue`, `bValue`, `cValue`. In the `aValue` variable we check if the previous index (`a`) is greater than or equal to zero and `a` is less than total length of the array then we store `array[a]` else we store minimum number from the system. `Number.MIN_VALUE` returns the minimum value `5e-324`. We do the same for `b` and `c`. Then in the `max` variable we store the largest variable among `aValue`, `bValue`, `cValue`. If `aValue === max` then return `a` index and do the same for the rest `b` and `c`. <br>
+Now in the `sortValleyPeak` function we store the biggest index from the `maxIndex` function. We swap numbers if current `i` not equal to `biggestIndex` else we goes for the next iteration. 
 
+## Solution and Explanation in CPP
 ## Complexity 
-**Runtime Complexity**: O(n log n)
+**Runtime Complexity**
+- O(n log n) for this [solution](PeaksAndValleys.js)
+- O(log n) for this [solution](PeaksAndVallyes2.js)
