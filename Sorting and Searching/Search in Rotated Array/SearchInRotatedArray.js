@@ -1,6 +1,6 @@
 const Search = (array, l, h, key) =>
 {
-    console.log(`this is l ${l} and this is h ${h}`)
+    //console.log(`this is l ${l} and this is h ${h}`)
     if (l > h) return -1
 
     let mid = (l + h) / 2
@@ -22,10 +22,10 @@ const Search = (array, l, h, key) =>
     return Search(array, l, mid-1, key)
 }
 
-let array = [4, 5, 6, 7, 8, 9, 1, 2, 3]
+let array = [9, 8, 1, 2, 3, 4, 5, 6, 7]
 let length = array.length
 console.log(length)
-let key = 9
+let key = 3
 let i = Search(array, 0, length, key)
 if (i == -1)
 {

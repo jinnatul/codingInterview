@@ -40,7 +40,7 @@ const search = (array, left, right, number) => {
     return -1
 }
 
-let array = [4, 5, 6, 7, 8, 9, 1, 2, 3]
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 let length = array.length
 let number = 7
 console.log(search(array, 0, length, number))

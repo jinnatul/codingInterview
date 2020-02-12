@@ -19,7 +19,7 @@ const Search = (array, target) =>
     while (low <= high)
     {
         let mid = low + (high - low) / 2
-        let realMid = (mid + row) % nums.length
+        let realMid = (mid + low) % array.length
         if (array[realMid] == target)
         {
             return realMid
@@ -37,6 +37,6 @@ const Search = (array, target) =>
 }
 
 let array = [4, 5, 6, 7, 8, 9, 1, 2, 3]
-let find = 5
+let find = 2
 
 console.log(Search(array, find))
