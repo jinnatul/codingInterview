@@ -1,8 +1,10 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+  - [Another Solution](#another-solution)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 
 ## Question
@@ -15,10 +17,6 @@
 
 To solve this problem we make a function called `isUnique` which has one parameter named `givenString` to take the string. In the function we make an empty object named `obj`. Now we will traverse through the entire given string (`givenString`)using `for` loop. <br/> 
 For each iteration we store each character in the `ch` variable (`let ch = givenString[i]`) and check if the `obj` object has the character in it. If it exists then return false. If it is not then set the character to `obj` to true. It means if the object `obj` has similar character then return false and if the object `obj` doesn't have the similar character then return true. After the for loop we return true. 
-
-### Complexity
-
-**Runtime Complexity**: O(n)
 
 ### Another Solution 
 
@@ -48,3 +46,6 @@ bool isUnique(string str)
     return true;
 }
 ```
+## Complexity
+
+**Runtime Complexity**: O(n)

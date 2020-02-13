@@ -1,13 +1,15 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+  - [Example](#example)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 *Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0*
 
-#### Example 
+### Example 
 ```
 Input: 
 [
@@ -83,11 +85,11 @@ for(let i = 0; i < row; i++)
 We iterate through the whole matrix and find which specific state is true and set that row / column to `0`. <br>
 At last we return the matrix. 
 
-
-### Complexity
-**Runtime Complexity**: O(m*n) <br>
-**Space Complexity**: O(1)
-
 ## Solution and Explanation in CPP
 
 [View code](/Array%20and%20Strings/Array/ZeroMatrix/ZeroMatrix01.cpp)
+
+## Complexity
+
+**Runtime Complexity**: O(m*n) <br>
+**Space Complexity**: O(1)

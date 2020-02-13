@@ -1,8 +1,9 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 
 ## Question
@@ -37,12 +38,6 @@ Then we will join our sorted string using `join('')` function and outcome will l
 
 We will do this for both of the string and check if the both string is equal or not. If equal then return true, if not then return false.
 
-
-### Complexity
-
-**Runtime Complexity**: O(n log n)
-
-
 ## Solution and Explanation in CPP
 
 [View code](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation01.cpp)
@@ -60,3 +55,7 @@ bool checkPermutation(string str1, string str2)
 ```
 
 [View code](/Array%20and%20Strings/Array/CheckPermutation/CheckPermutation02.cpp)
+
+## Complexity
+
+**Runtime Complexity**: O(n log n)

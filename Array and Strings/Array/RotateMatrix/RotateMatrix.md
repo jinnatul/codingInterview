@@ -1,8 +1,9 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 
@@ -68,12 +69,6 @@ a[n-1-j][i] = 4.
 
 Similarly, move these elements in the clockwise direction.
 
-
-### Complexity
-
-**Runtime Complexity**: O(n^2) <br>
-**Space Complexity**: O(1)
-
 ## Solution and Explanation in CPP
 
 - [View code](/Array%20and%20Strings/Array/RotateMatrix/RotationMatrix01.cpp)
@@ -103,3 +98,7 @@ for (int layer = 0; layer < row / 2; ++layer) {
     }
 }
 ```
+## Complexity
+
+**Runtime Complexity**: O(n^2) <br>
+**Space Complexity**: O(1)

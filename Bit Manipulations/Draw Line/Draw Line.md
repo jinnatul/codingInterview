@@ -1,8 +1,9 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 *A monochrome screen is stored as a single array of bytes, allowing eight consecutive pixels to be stored in one byte. The screen has width w, where w is divisible by 8(that is , not byte will split across rows). The height of the screen, of course, can be derived from the length of the array and the width. Implement a function that draws a horizontal line from (x1, y) to (x2, y). The method signature should look something like: `drawline(byte[] screen, int width, int x1, int x2, int y)`*
@@ -61,5 +62,6 @@ void DrawLine() {
 - [CodeHere 1st Way](/Bit%20Manipulations/Draw%20Line/DrawLine01.cpp)
 
 
-### Complexity
+## Complexity
+
 **Runtime Complexity**: O(n)

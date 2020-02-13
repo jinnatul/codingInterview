@@ -1,8 +1,11 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+    - [Example](#example)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+  - [Functions](#functions)
+- [Complexity](#complexity)
 
 ## Question
 *Write a function to determine the number of bits you would need to flip to convert integer A to integer B.*
@@ -83,5 +86,6 @@ void Conversion() {
 - [CodeHere-> 2nd Way](/Bit%20Manipulations/Conversion/Conversion02.cpp)
 
 
-### Complexity
+## Complexity
+
 **Runtime Complexity**: O(n)

@@ -1,8 +1,9 @@
 **Contents**
 
 - [Question](#question)
-- [Solution in JavaScript](#solution-and-explanation-in-javascript)
-- [Solution in CPP](#solution-and-explanation-in-cpp)
+- [Solution and Explanation in JavaScript](#solution-and-explanation-in-javascript)
+- [Solution and Explanation in CPP](#solution-and-explanation-in-cpp)
+- [Complexity](#complexity)
 
 ## Question
 *Explain what the following code does*
@@ -87,5 +88,6 @@ Number 2^n
 
 - [CodeHere-> 1st Way](/Bit%20Manipulations/Debugger/Debugger01.cpp)
 
-### Complexity
+## Complexity
+
 **Runtime Complexity** : The worst time complexity is O(log n) when every bit is set. 
