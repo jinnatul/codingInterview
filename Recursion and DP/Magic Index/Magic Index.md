@@ -27,6 +27,7 @@
 - Recursive Solution
 
     ### Code Here
+    -
       * []()
       * []()
 
@@ -93,11 +94,12 @@ int MagicIndex(int A[], int start, int end)
 }
 
 ```
-
   ### Code Here
+  -
     * [Linear](/Recursion%20and%20DP/Magic%20Index/MagicIndex01.cpp)
     * [Recursive 1](/Recursion%20and%20DP/Magic%20Index/MagicIndex02.cpp)
     * [Recursive 2](/Recursion%20and%20DP/Magic%20Index/MagicIndex03.cpp)
+    
 
 ## Complexity
 - Linear C++ O(n)
