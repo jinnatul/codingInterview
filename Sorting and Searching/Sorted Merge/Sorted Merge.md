@@ -31,7 +31,68 @@ Now we use a while loop to loop through until the `secondArrayElements` is 0. No
 
  ## Explanation and Solution in CPP
  
- Explanation of CPP goes here
+- Solution 1
+```
+void SortedMerge()
+{
+    int num1, num2;
+    cin >> num1;
+    int arr1[num1];
+    for (int i = 0; i < num1; ++i)
+        cin >> arr1[i];
+
+    cin >> num2;
+    int arr2[num2];
+    for (int i = 0; i < num2; ++i)
+        cin >> arr2[i];
+
+    int mergeIndex = num1 + num2 - 1, total = mergeIndex;
+    int indexA = num1 - 1, indexB = num2 - 1;
+
+    while (indexB >= 0) {
+        if(indexA >= 0 && arr1[indexA] > arr2[indexB]) {
+            arr1[mergeIndex] = arr1[indexA];
+            indexA--;
+        }
+        else {
+            arr1[mergeIndex] = arr2[indexB];
+            indexB--;
+        }
+        mergeIndex--;
+    }
+
+    for (int i = 0; i <= total; ++i) {
+        cout << arr1[i] << " ";
+    }
+}
+```
+
+- Solution 2
+```
+void SortedMerge()
+{
+    int num1, num2, num;
+    cin >> num1;
+
+    vector <int> vc;
+    for (int i = 0; i < num1; ++i) {
+        cin >> num;
+        vc.push_back(num);
+    }
+
+    cin >> num2;
+    for (int i = 0; i < num2; ++i) {
+        cin >> num;
+        vc.push_back(num);
+    }
+    sort(vc.begin(), vc.end());
+
+    for (int i = 0; i < vc.size(); ++i) {
+        cout << vc[i] << " ";
+    }
+}
+
+```
 
  ## Complexity 
 
