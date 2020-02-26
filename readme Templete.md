@@ -15,22 +15,30 @@
  
 ## Solution and Explanation in JavaScript
 
--
--
+- Solution 1
+```
+```
+- Solution 2
+```
+```
 
-    ### Code Here
-      * []()
-      * []()
+### Code Here
+  * []()
+  * []()
 
     
 ## Solution and Explanation in CPP
 
-- 
-- 
+- Solution 1
+```
+```
+- Solution 2
+```
+```
 
-    ### Code Here
-      * []()
-      * []()
+### Code Here
+  * []()
+  * []()
 
 ## Complexity
 - 
