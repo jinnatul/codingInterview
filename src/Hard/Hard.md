@@ -1,0 +1,32 @@
+# Books Questions (Problems)
+**Table of Contents:**
+
+  * [Add Without Plus](/src/Hard/Add%20Without%20Plus/Add%20Without%20Plus.md)
+  * [Shuffle](/src/Hard/Shuffle/Shuffle.md)
+  * [Random Set](/src/Hard/Random%20Set/Random%20Set.md)
+  * [Missing Number](/src/Hard/Missing%20Number/Missing%20Number.md)
+  * [Letters and Numbers](/src/Hard/Letters%20and%20Numbers/Letters%20and%20Numbers.md)
+  * [Count of 2s](/src/Hard/Count%20of%202s/Count%20of%202s.md)
+  * [Baby Names](/src/Hard/Baby%20Names/Baby%20Names.md)
+  * [Circus Tower](/src/Hard/Circus%20Tower/Circus%20Tower.md)
+  * [Kth Multiple](/src/Hard/Kth%20Multiple/Kth%20Multiple.md)
+  * [Majority Element](/src/Hard/Majority%20Element/Majority%20Element.md)
+  * [Word Distance](/src/Hard/Word%20Distance/Word%20Distance.md)
+  * [BiNode](/src/Hard/BiNode/BiNode.md)
+  * [Re-Space](/src/Hard/Re-Space/Re-Space.md)
+  * [Smallest K](/src/Hard/Smallest%20K/Smallest%20K.md)
+  * [Longest Word](/src/Hard/Longest%20Word/Longest%20Word.md)
+  * [The Masseuse](/src/Hard/The%20Masseuse/The%20Masseuse.md)
+  * [Multi Search](/src/Hard/Multi%20Search/Multi%20Search.md)
+  * [Shortest SuperSequence](/src/Hard/Shortest%20SuperSequence/Shortest%20SuperSequence.md)
+  * [Missing Two](/src/Hard/Missing%20Two/Missing%20Two.md)
+  * [Continuous Median](/src/Hard/Continuous%20Median/Continuous%20Median.md)
+  * [Volume of Histogram](/src/Hard/Volume%20of%20Histogram/Volume%20of%20Histogram.md)
+  * [Word Transformer](/src/Hard/Word%20Transformer/Word%20Transformer.md)
+  * [Max Black Square](/src/Hard/Max%20Black%20Square/Max%20Black%20Square.md)
+  * [Max Submatrix](/src/Hard/Max%20Submatrix/Max%20Submatrix.md)
+  * [Word Rectangle](/src/Hard/Word%20Rectangle/Word%20Rectangle.md)
+  * [Sparse Similarity](/src/Hard/Sparse%20Similarity/Sparse%20Similarity.md)
+
+# Custom Questions
+**Table of Contents:**

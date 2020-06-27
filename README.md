@@ -4,26 +4,26 @@ In this repository we are trying to solve problems with explanation from *Cracki
 
 **Table of Contents:**
 
- * [Array and String](/Array%20and%20Strings/ArrayString.md)
+ * [Array and String](/src/Array%20and%20Strings/ArrayString.md)
  
- * [Big-O](/BigO/BigO.md)
+ * [Big-O](/src/BigO/BigO.md)
  
- * [Bit Manipulations](/Bit%20Manipulations/BitManipulations.md)
+ * [Bit Manipulations](/src/Bit%20Manipulations/BitManipulations.md)
  
- * [Graphs Theory](/Graphs/Graphs.md)
+ * [Graphs Theory](/src/Graphs/Graphs.md)
  
- * [Linked Lists](/Linked%20Lists/LinkedList.md)
+ * [Linked Lists](/src/Linked%20Lists/LinkedList.md)
  
- * [Math and Logic Puzzles](/Math%20and%20Logic%20Puzzle/MathPuzzle.md)
+ * [Math and Logic Puzzles](/src/Math%20and%20Logic%20Puzzle/MathPuzzle.md)
  
- * [Recursion and Dynamic Programming](/Recursion%20and%20DP/DP.md)
+ * [Recursion and Dynamic Programming](/src/Recursion%20and%20DP/DP.md)
  
- * [Sorting and Searching](/Sorting%20and%20Searching/SortingandSearching.md)
+ * [Sorting and Searching](/src/Sorting%20and%20Searching/SortingandSearching.md)
  
- * [Stacks and Queue](/Stacks%20and%20Queue/StackandQueue.md)
+ * [Stacks and Queue](/src/Stacks%20and%20Queue/StackandQueue.md)
  
- * [Trees](/Trees/Trees.md)
+ * [Trees](/src/Trees/Trees.md)
  
- * [Moderate](/Moderate/Moderate.md)
+ * [Moderate](/src/Moderate/Moderate.md)
  
- * [Hard](/Hard/Hard.md)
+ * [Hard](/src/Hard/Hard.md)
